@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
-
-const url = 'mongodb+srv://Ethernight:M4yD3vilCry@fortest.2kicj.mongodb.net/CRUD?retryWrites=true&w=majority'
+// YOU NEED TO PUT YOUR USER AND YOUR PASS IN THE PARAMS "user" AND "pass"
+const url = 'mongodb+srv://user:pass@fortest.2kicj.mongodb.net/CRUD?retryWrites=true&w=majority'
 
 mongoose.connect(url, {
     useNewUrlParser: true,
